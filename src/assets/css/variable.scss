@@ -1,0 +1,32 @@
+:root {
+  --app-background-color: #1d1d1d;
+  --item-background-color: #262626;
+  --item-active-background-color: #2f2f2f;
+  --app-button-background-color: #fa7272;
+  --app-input-background-color: #2f2f2f;
+  --cancel-button-background-color: #fff;
+  --skeleton-background: #3c3c3c, #444444, #333333;
+
+  --app-button-color: #fff;
+  --cancel-button-color: #000;
+
+  --color-text-main: #ffffff;
+
+  --border-item: 1px solid #4d4d4d;
+
+  --base-border-radius: 12px;
+  --base-input-border-radius: 4px;
+  --base-button-border-radius: 8px;
+
+  --modal-z-index: 5;
+  --change-theme-duration: 0.5s;
+  --base-gap: 30px;
+}
+
+[data-theme='light'] {
+  --color-text-main: #1b1b1b;
+  --app-background-color: rgb(172, 172, 172);
+  --item-background-color: #dfdfdf;
+  --item-active-background-color: #919191;
+  --skeleton-color: #727272, #818181, #757575;
+}
